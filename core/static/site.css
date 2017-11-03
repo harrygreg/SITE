@@ -1,0 +1,123 @@
+body {
+	margin:0;
+	background-color: #e2dede;
+	}
+
+menu {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #173366;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	height: 50px;	
+	border-bottom: 2px solid black;
+	opacity:0.9
+	
+}
+
+
+li {
+    position:relative;
+	left:-30%;
+	float: right;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Verdana;
+	font-size:100%;
+    float: right;
+}
+
+li a:hover {
+    background-color: #4077b8;
+}
+
+texto_homepage {
+	padding: 0px 30px 0px;
+	font-family: "Arial";
+	font-size: 20px;
+	}
+	
+.titulo {font-family:"Verdana";
+			font-size: 300%;
+			position:absolute;
+			top: 120px;
+			left: 400px;
+			}
+
+HP_comentario{font-family:"Verdana";
+	text-decoration: underline;
+}	
+HP_comentario2{
+		font-family:"Verdana";
+		font-size: 20px;
+		font-weight: bold;
+		text-align:center;
+
+}
+cd{font-family:"Verdana";
+color:#ffffff;
+font-size: 100%;
+	
+}
+.link {color: #000000;
+	text-decoration:none;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  padding: 3.4rem;
+  background-color: #1f3867;
+  text-align: center;
+}
+.header{
+	background-color:#626873;
+	border-bottom: 3px solid black;
+	height:250px;
+	width:100%;
+}
+.FIT_LOGO img{
+    float:left;
+    margin-top:5%;
+	margin-left:13%;
+	width:150px;
+	height:150px;
+}
+lista_cursos{
+font-family:"Arial";
+font-size:20px;	
+}
+
+nomecurso{
+	font-family: "Arial";
+	text-decoration:underline;
+	font-size:28px;
+}
+
+descricao_curso{
+	font-size:18px;
+	font-family:"Verdana";
+	color:#343432;
+	
+}
+.corpo{
+	margin:auto;
+	width: 960px;
+}
+tipo_curso{
+	font-size: 30px;
+}
+noticia{
+	font-size: 16px;
+	font-family: "Verdana";
+}
