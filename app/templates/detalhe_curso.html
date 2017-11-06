@@ -2,11 +2,9 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type='text/css' href='/static/site.css' media="all">
-        <title>Detalhe de Cursos</title>
+        {% extends 'base.html' %}
+            {% block title %}Detalhe de Cursos.{% endblock %}
     </head>
-
-    {% extends 'base.html' %}
     
         {% block main %}
     <body>
@@ -133,7 +131,7 @@ que estão no sistema da organização, por isso é importante aprender a garant
 			</tr>
 			<tr>
                 <td>- INTRODUÇÃO A INTERNET DAS COISAS</td>
-            </tr>
+            </tr> 
 			<tr>
                 <td>- LINGUAGEM DE PROGRAMAÇÃO I</td>
 			</tr>

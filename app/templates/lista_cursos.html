@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        {% extends 'base.html' %}
         <meta charset="UTF-8">
-        <title>Lista de Cursos</title>
+        {% block title %}Lista de Cursos.{% endblock %}
     </head>
-    {% extends 'base.html' %}
     
         {% block main %}
     <body>
@@ -19,7 +19,7 @@
 </descricao_curso>
 
 <lista_cursos><h2>Graduação Tecnológica</h2></lista_cursos>
-<lista_cursos>
+<lista_cursos> 
 > <a href='/templates/detalhe_curso.html'class="link">Banco de Dados</a><br>
 > <a href='/templates/detalhe_curso.html'class="link">Análise e Desenvolvimento de Sistemas</a><br>
 </lista_cursos>

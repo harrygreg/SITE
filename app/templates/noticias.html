@@ -2,10 +2,9 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type='text/css' href='/static/site.css' media="all">
-        <title>Notícias</title>
+		{% extends 'base.html' %}
+		{% block title %}Notícias.{% endblock %}
     </head>
-    {% extends 'base.html' %}
     
         {% block main %}
     <body>
@@ -19,7 +18,7 @@
 <p>Os nossos alunos Júlio César dos Santos e Wilder Roberto Ramos Pereira e o ex-aluno Jean Pierre Ferreira da Silva, que integraram a equipe Greenbox, venceram a categoria Mashups com o projeto de uma plataforma para educar e ajudar a criar um modo seguro e interativo de usar a tecnologia a favor da educação, trazendo para o mundo real elementos de jogos virtuais.
 A edição, que teve duração de três dias, premiou cada integrante com um tablet, além do compromisso com a aceleração dos projetos pelo CAF. Os ganhadores poderão ainda participar da 9.ª edição do Concurso Acelera Startup da Fiesp.</p>
 <p>Nós, da Faculdade Impacta, estamos muito orgulhosos de ver que nossos alunos não só estão colocando em prática todo o aprendizado obtido em sala de aula, como também contribuindo para a construção de uma sociedade melhor.</p>
-</noticia></center>
+</noticia></center> 
 {% endblock %}
 </body>
 </html>
